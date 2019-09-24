@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "postdeploy": "echo 'COMPLETE'"
+    "postdeploy": ".gcloud/setup.sh"
   }
 }
