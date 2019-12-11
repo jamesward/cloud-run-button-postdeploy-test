@@ -1,5 +1,5 @@
 {
-  "scripts": {
-    "postdeploy": ".gcloud/setup.sh"
+  "hook": {
+    "postcreate": ".gcloud/setup.sh"
   }
 }
