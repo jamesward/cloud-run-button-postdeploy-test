@@ -1,5 +1,15 @@
 {
-  "scripts": {
-    "postdeploy": "echo 'COMPLETE'"
+  "hooks": {
+    "precreate": {
+      "commands": [
+        "echo 'GONNA CREATE'",
+        "date",
+      ]
+    },
+    "postcreate": {
+      "commands": [
+        "echo 'DONE CREATING'"
+      ]
+    }
   }
 }
